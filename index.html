@@ -1,0 +1,30 @@
+---
+layout: default
+title: Hillsborough County Quizzes
+---
+
+<header class="jumbotron">
+	<div class="container">
+		<h1 class="text-center">
+			{{ page.title }}
+		</h1>
+	</div>
+</header>
+
+<section class="container">
+
+	<div class="list-group">
+		{% for post in site.posts %}
+		<a href="{{ post.url | relative_url }}" class="list-group-item">
+			<h4 class="list-group-item-heading">
+				{{ post.title }}
+			</h4>
+			<p class="list-group-item-text">
+				<strong>Posted:</strong>
+				{{ post.date | date: "%b %-d, %Y" }}
+			</p>
+		</a>
+		{% endfor %}
+	</div>
+
+</section>

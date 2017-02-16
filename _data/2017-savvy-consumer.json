@@ -1,0 +1,200 @@
+{
+	"results" : [
+		{
+			"upper_boundary": 10,
+			"lower_boundary": 9,
+			"result": "You’re a savvy consumer. Scam artists, steer clear!"
+		},
+		{
+			"upper_boundary": 8,
+			"lower_boundary": 6,
+			"result": "Common sense serves you well. A pushover, you’re not."
+		},
+		{
+			"upper_boundary": 5,
+			"lower_boundary": 3,
+			"result": "Trouble looms. Learn the pitfalls or pay the price."
+		},
+		{
+			"upper_boundary": 2,
+			"lower_boundary": 0,
+			"result": "An easy mark! Turn off your computer, stay away from the phone, and don’t answer your front door."
+		}
+	],
+	"questions": [
+		{
+			"question": "When negotiating a deal for a new car, the best time to discuss the possibility of trading in your old vehicle is:",
+			"answers": [
+				{
+					"answer": "Right away. Get everyone on the same page.",
+					"correct": false
+				},
+				{
+					"answer": "After negotiating the price of the new car.",
+					"correct": "Settle on the price of the new car first, to ensure you know exactly how much a dealer is willing to pay for your old one. Or sell your old vehicle independently. Doing so usually brings a higher price."
+				},
+				{
+					"answer": "Doesn't matter.",
+					"correct": false
+				}
+			]
+		},
+		{
+			"question": "Which of the following is a good approach when you are disappointed after buying a product or service?",
+			"answers": [
+				{
+					"answer": "It's OK to get angry. Let the seller know you're upset, and demand your money back.",
+					"correct": false
+				},
+				{
+					"answer": "Return to the store or website.",
+					"correct": "Speaking with a store employee or returning to the web site where you made a purchase resolves many consumer problems."
+				},
+				{
+					"answer": "Move fast. If a transaction happened more than five days ago, you're out of luck.",
+					"correct": false
+				}
+			]
+		},
+		{
+			"question": "What should you NOT do when receiving a credit card bill for information you did not receive?",
+			"answers": [
+				{
+					"answer": "Write to the credit card issuer at the address where you send your payments.",
+					"correct": "Write to the credit card insurer at the address given for billing inquiries."
+				},
+				{
+					"answer": "Withhold payment on the disputed amount while the matter is investigated.",
+					"correct": false
+				},
+				{
+					"answer": "When writing to a credit card issuer, do so within 60 days after the bill was mailed to you. Include copies of any sales slip or other document that supports your position.",
+					"correct": false
+				}
+			]
+		},
+		{
+			"question": "Which of the following is a trustworthy caller — a person to whom you safely can give personal information or send money?",
+			"answers": [
+				{
+					"answer": "A person who identifies themselves as a government official.",
+					"correct": false
+				},
+				{
+					"answer": "A caller whose caller ID information appears on your telephone.",
+					"correct": false
+				},
+				{
+					"answer": "Neither of the above.",
+					"correct": " Scammers often pretend to be someone you are inclined to trust, such as a government official, a family member or a charity. Technology makes it easy for scammers to fake caller ID information."
+				}
+			]
+		},
+		{
+			"question": "When buying a gift card…",
+			"answers": [
+				{
+					"answer": "Online auction sites are safe and offer good deals.",
+					"correct": false
+				},
+				{
+					"answer": "Purchase from sources you know and trust.",
+					"correct": "It's your best assurance that a gift card is valid."
+				},
+				{
+					"answer": "You can be certain no fees will be deducted from the card's value after you buy it.",
+					"correct": false
+				}
+			]
+		},
+		{
+			"question": "You want to get in shape — maybe join a gym. Before doing so…",
+			"answers": [
+				{
+					"answer": "Find out what happens if you need to cancel your membership.",
+					"correct": "It's important to know a gym's cancellation policies before signing a contract — especially a long-term one."
+				},
+				{
+					"answer": "Visit the facility at a time of day when you likely would not be using it.",
+					"correct": false
+				},
+				{
+					"answer": "Don't bother asking if classes are free. They always are.",
+					"correct": false
+				}
+			]
+		},
+		{
+			"question": "Which of the following is NOT a way to improve your car's gas mileage?",
+			"answers": [
+				{
+					"answer": "Begin driving as soon as the engine starts. Modern engines don't need much time to warm up.",
+					"correct": false
+				},
+				{
+					"answer": "Minimize the need to brake by anticipating traffic conditions.",
+					"correct": false
+				},
+				{
+					"answer": "Use a higher octane gas than the manufacturer recommends.",
+					"correct": "In most cases a higher octane gas offers no benefit, and it costs more."
+				}
+			]
+		},
+		{
+			"question": "Avoid identity theft by…",
+			"answers": [
+				{
+					"answer": "Declining to give out personal information on the phone, through the mail, or on the internet unless you've initiated the contact or know who you are dealing with.",
+					"correct": false
+				},
+				{
+					"answer": "Locking your financial records in a safe place at home, and locking your wallet or purse at work.",
+					"correct": false
+				},
+				{
+					"answer": "Shredding receipts, insurance forms, health records, checks, bank statements, charge cards, and other documents when you no longer need them.",
+					"correct": false
+				},
+				{
+					"answer": "All of the above.",
+					"correct": "Securing your personal information can help reduce risk of identity theft."
+				}
+			]
+		},
+		{
+			"question": "What NOT to ask when considering colleges or universities:",
+			"answers": [
+				{
+					"answer": "What percentage of students graduate?",
+					"correct": false
+				},
+				{
+					"answer": "Did the football team have a winning record last year?",
+					"correct": "Ask questions that will help you assess the extent to which a school's offerings will benefit you and your future."
+				},
+				{
+					"answer": "Can I transfer credit I earn at this school to other schools?",
+					"correct": false
+				}
+			]
+		},
+		{
+			"question": "Looking for a job? Try…",
+			"answers": [
+				{
+					"answer": "Talking to plugged-in people about your job search and career goals.",
+					"correct": "Networking is a great way to build relationships that might help you find an ideal position."
+				},
+				{
+					"answer": "Filling out as many applications as possible and hoping someone gets back in touch with you.",
+					"correct": false
+				},
+				{
+					"answer": "Don't tell creditors you are jobless. They will show no mercy.",
+					"correct": false
+				}
+			]
+		}
+	]
+}

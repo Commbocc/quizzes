@@ -1,0 +1,68 @@
+<ol class="quiz-list">
+	{% for question in site.data[include.data].questions %}
+
+	{% capture qindex %}{{ forloop.index }}{% endcapture %}
+
+	<li data-qindex="{{ qindex }}">
+
+		<span class="lead">
+			{{ question.question }}
+		</span>
+
+		<ul class="list-unstyled answer-list">
+			{% for answer in question.answers %}
+
+			{% capture aindex %}{{ forloop.index }}{% endcapture %}
+
+			<li class="radio alert">
+				<p>
+					<label>
+						<input type="radio" name="question_{{ qindex }}" id="q_{{ qindex }}_a_{{ aindex }}" value="{{ aindex }}" data-correct="{{ answer.correct }}">
+						{{ answer.answer }}
+					</label>
+				</p>
+				<i class="description"></i>
+			</li>
+
+			{% endfor %}
+		</ul>
+
+	</li>
+	{% endfor %}
+</ol>
+
+<p class="text-center">
+	<button type="button" id="get-results" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#quizResultsModal">
+		Get Results
+	</button>
+	<a href="{{ page.url | relative_url }}" class="btn btn-lg btn-default">
+		Start Over
+	</a>
+</p>
+
+<!-- Modal -->
+<div class="modal fade" id="quizResultsModal" tabindex="-1" role="dialog" aria-labelledby="quizResultsModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title text-center" id="quizResultsModalLabel">
+					<span class="num-correct"></span> of {{ qindex }} (<span class="percent-correct"></span>%)
+				</h4>
+			</div>
+			<div class="modal-body">
+				{% for result in site.data[include.data].results %}
+				<div class="result text-center result" data-upper="{{ result.upper_boundary }}" data-lower="{{ result.lower_boundary }}" style="display: none;" data-question-count="{{ qindex }}">
+					<p class="h2">
+						{{ result.result }}
+					</p>
+				</div>
+				{% endfor %}
+			</div>
+			<div class="modal-footer">
+				<a href="{{ page.url | relative_url }}" class="btn btn-default">Start Over</a>
+				<button type="button" class="btn btn-info" data-dismiss="modal">Review the Quiz</button>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,36 @@
+---
+---
+
+.quiz-list {
+
+	.alert {
+		padding: 10px 15px 10px 30px;
+		margin-bottom: 10px;
+
+		& > p {
+			margin-bottom: 0;
+		}
+	}
+
+	.description {
+		display: block;
+		margin-top: 8px;
+		font-weight: bold;
+	}
+
+	.description:empty {
+		display: none;
+	}
+
+
+}
+
+.jumbotron {
+	color: #fff;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#79ccd2+0,79ccd2+50,8cd3d7+51,8cd3d7+100 */
+	background: #79ccd2; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #79ccd2 0%, #79ccd2 50%, #8cd3d7 51%, #8cd3d7 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  #79ccd2 0%,#79ccd2 50%,#8cd3d7 51%,#8cd3d7 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  #79ccd2 0%,#79ccd2 50%,#8cd3d7 51%,#8cd3d7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#79ccd2', endColorstr='#8cd3d7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
