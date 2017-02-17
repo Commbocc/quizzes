@@ -5,9 +5,11 @@ $ ->
 
 	# form behavior
 	$('.answer-list input').change ->
+		$(this).closest('.answer-list').find('.description').each ->
+			$(this).slideDown()
+
 		if $(this).data('correct') != false
 			$(this).closest('.alert').addClass('alert-success')
-			$(this).closest('.alert').find('.description').html( $(this).data('correct') )
 		else
 			$(this).closest('.alert').addClass('alert-danger')
 
@@ -17,13 +19,6 @@ $ ->
 
 	# get results
 	$('#get-results').click ->
-		# # disable button
-		# $(this).addClass('disabled')
-
-		# # scroll to results
-		# $('html, body').animate({
-		# 	scrollTop: $("#results").offset().top
-		# }, 1000)
 
 		# highlight answers
 		$('.answer-list input').each ->

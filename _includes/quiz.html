@@ -21,7 +21,13 @@
 						{{ answer.answer }}
 					</label>
 				</p>
-				<i class="description"></i>
+				<i class="description" style="display:none;">
+					{% if answer.correct != false %}
+					{{ answer.correct }}
+					{% else %}
+					Incorrect
+					{% endif %}
+				</i>
 			</li>
 
 			{% endfor %}
