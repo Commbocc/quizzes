@@ -15,7 +15,7 @@ title: Hillsborough County Quizzes
 
 	<div class="list-group">
 		{% for post in site.posts %}
-		<a href="{{ post.url | relative_url }}" class="list-group-item">
+		<a href="{{ post.url | absolute_url }}" class="list-group-item">
 			<h4 class="list-group-item-heading">
 				{{ post.title }}
 			</h4>
