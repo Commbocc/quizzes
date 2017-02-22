@@ -48,7 +48,7 @@
 				},
 				{
 					"answer": "Return to the store or website.",
-					"correct": "Speaking with a store employee or returning to the web site where you made a purchase resolves many consumer problems."
+					"correct": "Speaking calmly with a store employee or returning to the website where you made a purchase resolves many consumer problems."
 				},
 				{
 					"answer": "Move fast. If a transaction happened more than five days ago, you're out of luck.",
@@ -57,19 +57,23 @@
 			]
 		},
 		{
-			"question": "What should you NOT do when receiving a credit card bill for information you did not receive?",
+			"question": "Name a common type of identity theft...",
 			"answers": [
 				{
-					"answer": "Write to the credit card issuer at the address where you send your payments.",
-					"correct": "Write to the credit card insurer at the address given for billing inquiries."
-				},
-				{
-					"answer": "Withhold payment on the disputed amount while the matter is investigated.",
+					"answer": "Credit card fraud",
 					"correct": false
 				},
 				{
-					"answer": "When writing to a credit card issuer, do so within 60 days after the bill was mailed to you. Include copies of any sales slip or other document that supports your position.",
+					"answer": "Tax return fraud",
 					"correct": false
+				},
+				{
+					"answer": "Utility fraud",
+					"correct": false
+				},
+				{
+					"answer": "All of the above",
+					"correct": "There's also telephone fraud, bank fraud, loan fraud, and other types of identity theft."
 				}
 			]
 		},
@@ -77,7 +81,7 @@
 			"question": "Which of the following is a trustworthy caller — a person to whom you safely can give personal information or send money?",
 			"answers": [
 				{
-					"answer": "A person who identifies themselves as a government official.",
+					"answer": "People who identify themselves as government officials.",
 					"correct": false
 				},
 				{
@@ -86,29 +90,29 @@
 				},
 				{
 					"answer": "Neither of the above.",
-					"correct": " Scammers often pretend to be someone you are inclined to trust, such as a government official, a family member or a charity. Technology makes it easy for scammers to fake caller ID information."
+					"correct": "Scammers often pretend to be someone you are inclined to trust, such as a government official, a family member or a charity. Technology makes it easy for scammers to fake caller ID information."
 				}
 			]
 		},
 		{
-			"question": "When buying a gift card…",
+			"question": "What do criminals install on ATM machines to get your account information?",
 			"answers": [
 				{
-					"answer": "Online auction sites are safe and offer good deals.",
+					"answer": "Pinchers",
 					"correct": false
 				},
 				{
-					"answer": "Purchase from sources you know and trust.",
-					"correct": "It's your best assurance that a gift card is valid."
+					"answer": "Skimmers",
+					"correct": "Skimmers are devices that illegally pull data from the magnetic strip on your card, enabling a criminal to make a bogus card."
 				},
 				{
-					"answer": "You can be certain no fees will be deducted from the card's value after you buy it.",
+					"answer": "Bungee cords",
 					"correct": false
 				}
 			]
 		},
 		{
-			"question": "You want to get in shape — maybe join a gym. Before doing so…",
+			"question": "You want to get in shape — maybe join a gym. Before doing so...",
 			"answers": [
 				{
 					"answer": "Find out what happens if you need to cancel your membership.",
@@ -142,10 +146,10 @@
 			]
 		},
 		{
-			"question": "Avoid identity theft by…",
+			"question": "Avoid identity theft by...",
 			"answers": [
 				{
-					"answer": "Declining to give out personal information on the phone, through the mail, or on the internet unless you've initiated the contact or know who you are dealing with.",
+					"answer": "Declining to give out personal information on the phone, through the mail, or on the Internet unless you've initiated the contact or know who you are dealing with.",
 					"correct": false
 				},
 				{
@@ -180,18 +184,18 @@
 			]
 		},
 		{
-			"question": "Looking for a job? Try…",
+			"question": "What is it called when a thief goes through your trash to find discarded bills or other personal information?",
 			"answers": [
 				{
-					"answer": "Talking to plugged-in people about your job search and career goals.",
-					"correct": "Networking is a great way to build relationships that might help you find an ideal position."
-				},
-				{
-					"answer": "Filling out as many applications as possible and hoping someone gets back in touch with you.",
+					"answer": "Trash trolling",
 					"correct": false
 				},
 				{
-					"answer": "Don't tell creditors you are jobless. They will show no mercy.",
+					"answer": "Dumpster diving",
+					"correct": "Dumpster diving or digging through trash is a sneaky way to get someone's privileged information."
+				},
+				{
+					"answer": "Garbage sifting",
 					"correct": false
 				}
 			]
