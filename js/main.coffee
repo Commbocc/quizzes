@@ -29,6 +29,10 @@ $ ->
 				else
 					$(this).addClass('text-danger')
 
+		# show descriptions
+		$('.description').each ->
+			$(this).slideDown()
+
 		# count correct answers
 		correct_answers = 0
 		$('.answer-list input:checked').each ->
