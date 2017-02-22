@@ -41,7 +41,7 @@
 	<button type="button" id="get-results" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#quizResultsModal">
 		Get Results
 	</button>
-	<a href="{{ page.url | absolute_url }}" class="btn btn-lg btn-default">
+	<a href="{{ page.url | relative_url }}" class="btn btn-lg btn-default">
 		Start Over
 	</a>
 </p>
@@ -66,7 +66,7 @@
 				{% endfor %}
 			</div>
 			<div class="modal-footer">
-				<a href="{{ page.url | absolute_url }}" class="btn btn-default">Start Over</a>
+				<a href="{{ page.url | relative_url }}" class="btn btn-default">Start Over</a>
 				<button type="button" class="btn btn-info" data-dismiss="modal">Review the Quiz</button>
 			</div>
 		</div>
